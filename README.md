@@ -22,8 +22,8 @@
 
 1. 각각의 말의 속도를 정하는 인터페이스를 만든다. <br>
 2. 말들은 설정된 150ms의 스레드 실행 속도에 따라 랜덤하게 말의 속력을 지정 받는다. <br>
-3. 속력은 각각의 인터페이스로 구성되어 있으며 mode라는 변수의 <br>
-   ArrayList에 각각의 속력 인터페이스 인스턴스가 담겨있고 이를 랜덤하게 말의 속도에 셋팅한다. <br>
+3. 속력은 각각의 setVelocity인터페이스를 implements한 클래스들로 구성되어 있으며 mode라는 변수의 <br>
+   ArrayList에 각각의 속력 클래스의 인스턴스가 담겨있고 이를 꺼내 랜덤하게 말의 속도에 셋팅한다. <br>
    
    int random = (int) (Math.random() * 4); <br>
    setVelocity mode= modes.get(random); <br>
