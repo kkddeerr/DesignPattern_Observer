@@ -1,6 +1,6 @@
 # DesignPattern_Observer
 
--Strategy Pattern이란? 
+<b> -Strategy Pattern이란? </b>
 
 동적으로 알고리즘을 교체할 수 있는 구조로의 패턴으로 <br>
 알고리즘 인터페이스를 정의하고, 각각의 알고리즘의 클래스를 캡슐화하여 각각의 <br>
@@ -9,24 +9,23 @@
 코드의 중복 없이 코드의 재사용이 가능하게 됩니다. <br>
 
 구현 방법
-1) 알고리즘에 대한 인터페이스를 만든다.
-2) 인터페이스를 구현한 알고리즘 클래스들을 만든다.
-3) 실제 이 인터페이스들을 사용할 클래스를 만든다.
+1) 알고리즘에 대한 인터페이스를 만든다. <br>
+2) 인터페이스를 구현한 알고리즘 클래스들을 만든다. <br>
+3) 실제 이 인터페이스들을 사용할 클래스를 만든다. <br>
 
 Strategy 활용 방법
 
-1. 각각의 말의 속도를 정하는 인터페이스를 만든다.
-2. 말들은 설정된 150ms의 스레드 실행 속도에 따라 랜덤하게 말의 속력을 지정 받는다.
-3. 속력은 각각의 인터페이스로 구성되어 있으며 mode라는 변수의 
-   ArrayList에 각각의 속력 인터페이스 인스턴스가 담겨있고 이를 랜덤하게 말의 속도에 셋팅한다.
+1. 각각의 말의 속도를 정하는 인터페이스를 만든다. <br>
+2. 말들은 설정된 150ms의 스레드 실행 속도에 따라 랜덤하게 말의 속력을 지정 받는다. <br>
+3. 속력은 각각의 인터페이스로 구성되어 있으며 mode라는 변수의 <br>
+   ArrayList에 각각의 속력 인터페이스 인스턴스가 담겨있고 이를 랜덤하게 말의 속도에 셋팅한다. <br>
    
-   int random = (int) (Math.random() * 4);
-			setVelocity mode= modes.get(random);
-   horse.setRunningMode(mode);
+   int random = (int) (Math.random() * 4); <br>
+   setVelocity mode= modes.get(random); <br>
+   horse.setRunningMode(mode); <br>
    
 
-
--Observer Pattern이란?
+-Observer Pattern이란? <br>
 
  
 객체의 상태 변화를 관찰하는 관찰자(Observer)를 객체에 등록하여, <br>
