@@ -25,8 +25,8 @@
    horse.setRunningMode(mode); <br>
 
 <b> Strategy UML Diagram </b>
-  <img align="left" src="https://user-images.githubusercontent.com/22215395/49061475-2d8a1980-f254-11e8-8890-aa888b870fdb.jpg"> 
-
+<div>  <img align="center" src="https://user-images.githubusercontent.com/22215395/49061475-2d8a1980-f254-11e8-8890-aa888b870fdb.jpg"> 
+</div>
 <br>
    
 <b> -Observer Pattern이란? </b>
