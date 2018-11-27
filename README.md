@@ -1,4 +1,4 @@
-# DesignPattern_Observer
+# DesignPattern_Strategy-Observer
 
 <b> UML Diagram </b>
 <div>  <img align="center" src="https://user-images.githubusercontent.com/22215395/49061960-b5bcee80-f255-11e8-84e4-9955ca7042f1.jpg"> 
