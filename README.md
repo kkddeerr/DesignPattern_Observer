@@ -1,5 +1,10 @@
 # DesignPattern_Observer
 
+<b> UML Diagram </b>
+<div>  <img align="center" src="https://user-images.githubusercontent.com/22215395/49061960-b5bcee80-f255-11e8-84e4-9955ca7042f1.jpg"> 
+</div>
+<br>
+
 <b> -Strategy Pattern이란? </b>
 
 동적으로 알고리즘을 교체할 수 있는 구조로의 패턴으로 <br>
@@ -23,11 +28,6 @@
    int random = (int) (Math.random() * 4); <br>
    setVelocity mode= modes.get(random); <br>
    horse.setRunningMode(mode); <br>
-
-<b> Strategy UML Diagram </b>
-<div>  <img align="center" src="https://user-images.githubusercontent.com/22215395/49061475-2d8a1980-f254-11e8-8890-aa888b870fdb.jpg"> 
-</div>
-<br>
    
 <b> -Observer Pattern이란? </b>
 <br>
