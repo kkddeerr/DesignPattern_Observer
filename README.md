@@ -56,3 +56,9 @@
  Horse객체가 변화되었음을 전달하고 각각의 Alarm 인스턴스에서 Stamina를 체크한다. <br>
  Stamina의 상태에 따라 화면에 다른 메시지를 출력하는 각각의 클래스를 작동시킨다. <br>
  The Horse is <현재의 스테미나 상태> Present Stamina : <현재 남은 Stamina>
+ 
+ <b> 실행 화면 </b>
+ <div>
+ <img width="300" align="center" src="https://user-images.githubusercontent.com/22215395/49062070-26fca180-f256-11e8-80d2-481357843246.jpg">
+   
+ <div>
