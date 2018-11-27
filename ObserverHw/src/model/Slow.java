@@ -1,6 +1,6 @@
 package model;
 
-public class Slow extends setVelocity {
+public class Slow implements setVelocity {
 
 	@Override
 	public int getVelocity() {
