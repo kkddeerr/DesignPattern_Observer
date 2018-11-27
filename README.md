@@ -60,5 +60,6 @@
  <b> 실행 화면 </b>
  <div>
  <img width="300" align="center" src="https://user-images.githubusercontent.com/22215395/49062070-26fca180-f256-11e8-80d2-481357843246.jpg">
-   
- <div>
+  <img width="300" align="center" src="https://user-images.githubusercontent.com/22215395/49062072-27953800-f256-11e8-8d3f-a6f3af1aff70.png">
+ <img width="300" align="center" src="https://user-images.githubusercontent.com/22215395/49062073-27953800-f256-11e8-8255-03022f056d25.jpg">
+ </div>
